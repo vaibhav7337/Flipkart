@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer .main .new 
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 29px;
+}
+.outer .main .new input
+{
+    width: 250px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.outer .main .new .text
+{
+    margin-right: 215px;
+    margin-bottom: 2px;
+    color:whitesmoke;
+}
+
+.outer .main{
+    border: 2px dotted blue ;
+    border-radius: 5px;
+    width: 390px;
+    /* padding: 50px; */
+    padding-bottom: 50px;
+    margin: auto;
+    background-color: blue;
+
+}
+
+.outer{
+    margin-top: 100px;
+    /* border-radius: 10px; */
+}
+
+.outer .main .old
+{
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 25px;
+
+    
+}
+.outer .main .old input {
+    width: 250px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.outer .main .old .text1
+{
+    margin-right: 190px;
+    margin-bottom: 2px;
+    color: whitesmoke;
+}
+
+.outer .main .btn
+{
+    text-align: center;
+    margin-top:12px;
+    margin-right: 24px;
+
+}
+.outer .main .btn button
+{
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+    /* border-color: blue; */
+    color:red;
+}

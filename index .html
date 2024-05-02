@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="main">
+            <div class="new">
+                <div class="text">
+                    email
+                </div>
+                <input type="email" placeholder="email" id="email" />
+            </div>
+            <div class="old">
+                <div class="text1">
+                    Password
+                </div>
+                <input type="password" placeholder="password" id="password" />
+            </div>
+            <div class="btn">
+                <button onclick="login()">log in</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let login = () => {
+            checkmail = document.getElementById("email").value
+            checkpassword = document.getElementById("password").value
+
+            if (checkmail == "vai@gmail.com" && checkpassword == "54321") {
+                window.location.assign("./flipkart.html")
+            }
+            else {
+                alert("invalid data")
+            }
+        };
+
+
+    </script>
+</body>
+
+</html>
